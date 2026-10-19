@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Entrega01/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <!-- boostrap aca -->
+    <title>PowerFit</title>
+  </head>
+  <body class="body">
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="planes.html">Planes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- SECCIÓN HERO -->
+    <section class="text-center py-5">
+      <div class="container-hero">
+        <h1 class="display-5 fw-bold mb-4" id="h1-index">
+          TRANSFORMÁ TU CUERPO, SUPERÁ TUS LÍMITES.
+        </h1>
+        <a
+          href="planes.html"
+          class="btn btn-warning btn-lg fw-semibold px-4"
+          id="boton-hero"
+          >FORMA PARTE DE POWERFIT</a
+        >
+      </div>
+    </section>
+    <!-- seccion de entrenos destacados -->
+    <div class="row">
+      <div class="sm:col-4 mb-3 sm:mb-0">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">ENTRENA FUERZA</h4>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+              illo amet explicabo?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm:col-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">VOLVETE AGIL</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              incidunt a odio.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm:col-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">SUPERA TUS LIMITES</h4>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Provident consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECCIÓN: POR QUÉ ELEGIRNOS -->
+    <section class="container my-5 text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold text-uppercase mb-3" id="h2-index">
+            ¿Por qué elegir Power Fit?
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- SECCIÓN: TEXTO A LA IZQUIERDA E IMAGEN A LA DERECHA -->
+    <section class="container my-5">
+      <div class="g-4" id="contenedor-porqueelegir">
+        <!-- Columna Izquierda: Texto y Botón -->
+        <div class="col-md-6 text-white" id="div-texto-boton">
+          <h3 class="h2 fw-bold mb-3">Entrená sin límites</h3>
+          <p class="text-secondary mb-4">
+            Contamos con equipos de última generación, un ambiente motivador y
+            rutinas adaptadas 100% a tus objetivos para garantizar resultados
+            reales desde el primer mes.
+          </p>
+          <a href="planes.html" class="btn btn-warning fw-semibold px-4 py-2"
+            >INSCRIBITE YA</a
+          >
+        </div>
+
+        <!-- Columna Derecha: Imagen -->
+        <div class="col-md-6">
+          <img
+            src="imgs/image-powerfit-02.png"
+            alt="Gimnasio PowerFit"
+            class="img-fluid rounded shadow"
+            height="360px"
+            width="360px"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- SECCIÓN: ELEGÍ TU PLAN IDEAL -->
+    <section class="container my-5">
+      <!-- Título de la sección -->
+      <div class="text-center mb-5">
+        <h2 class="text-white fw-bold text-uppercase">Elegí tu plan ideal</h2>
+      </div>
+
+      <!--  Fila que contiene las 3 tarjetas 
+      <div class="row g-4">
+        
+        Tarjeta 1 
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-secondary p-4 h-100 text-center">
+            <h3 class="h4 fw-bold text-warning mb-3">Plan Básico</h3>
+            <p class="text-secondary mb-4">Ideal para empezar a entrenar a tu propio ritmo.</p>
+            <a href="planes.html" class="btn btn-outline-warning mt-auto">Ver Más</a>
+          </div>
+        </div>
+
+        Tarjeta 2 (Destacada) 
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-warning p-4 h-100 text-center shadow">
+            <h3 class="h4 fw-bold text-warning mb-3">Plan Full</h3>
+            <p class="text-secondary mb-4">Acceso total a todas las disciplinas y horarios libres.</p>
+            <a href="planes.html" class="btn btn-warning text-dark fw-semibold mt-auto">Ver Más</a>
+          </div>
+        </div>
+
+         Tarjeta 3 
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-secondary p-4 h-100 text-center">
+            <h3 class="h4 fw-bold text-warning mb-3">Plan VIP</h3>
+            <p class="text-secondary mb-4">Para exigentes con beneficios y atención exclusiva.</p>
+            <a href="planes.html" class="btn btn-outline-warning mt-auto">Ver Más</a>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+
+      <!-- prueba de tarjeta  -->
+      <div class="container row" id="container-tarjetas">
+        <div class="card-planes col-md-4">
+          <img
+            src="imgs/image-powerfit-01.png"
+            alt="img-plan-basico"
+            height="200px"
+            width="260px"
+          />
+          <h2>Plan basico mensual</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            rem. Corporis quam eum hic corrupti dolorum doloribus nemo magni
+            aut.
+          </p>
+          <a href="planes.html">Leer mas</a>
+        </div>
+
+        <div class="card-planes col-md-4">
+          <img
+            src="imgs/image-powerfit-01.png"
+            alt="img-plan-basico"
+            height="200px"
+            width="260px"
+          />
+          <h2>Plan full trimestral</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            rem. Corporis quam eum hic corrupti dolorum doloribus nemo magni
+            aut.
+          </p>
+          <a href="planes.html">Leer mas</a>
+        </div>
+
+        <div class="card-planes col-md-4">
+          <img
+            src="imgs/image-powerfit-01.png"
+            alt="img-plan-basico"
+            height="200px"
+            width="260px"
+          />
+          <h2>Plan VIP de 6 meses</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            rem. Corporis quam eum hic corrupti dolorum doloribus nemo magni
+            aut.
+          </p>
+          <a href="planes.html">Leer mas</a>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

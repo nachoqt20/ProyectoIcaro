@@ -1,0 +1,103 @@
+.body {
+  background-color: #064734;
+}
+
+/* PAGINA INDEX */
+.container-hero {
+  background-color: #064734;
+}
+
+.card-body {
+  background-color: #66b8a4;
+}
+
+#h1-index {
+  font-size: 6.5rem;
+  text-align: left;
+}
+
+#boton-hero {
+  background-color: crimson;
+}
+
+#contenedor-porqueelegir {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+#h2-index {
+  text-align: right;
+  font-size: 2.5rem;
+}
+
+#div-texto-boton {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.card-planes {
+  background-color: #064734;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px black (0, 0, 0.1);
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+#container-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* PAGINA PLANES */
+.contenedor-grid-yaelegistetuplan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.sub-titulo-planes {
+  font-size: 3.5rem;
+}
+
+.titulo-principal-planes {
+  font-size: 4.5rem;
+}
+
+.h3-promo {
+  font-size: 2.5rem;
+}
+
+.caja-precio {
+  font-size: 3.5rem;
+}
+
+/* PAGINA SOBRE NOSOTROS */
+
+.titulo-sobrenosotros {
+  font-size: 4.5rem;
+  text-align: left;
+}
+
+.parrafo-sobrenosotros {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.contenedor-formulario {
+  text-align: right;
+}
+
+.titulo-contacto {
+  font-size: 2.5rem;
+}

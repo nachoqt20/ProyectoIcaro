@@ -1,0 +1,44 @@
+
+.parrafo{
+    color: blanchedalmond;
+}
+
+p{
+    color: blue;
+}
+
+html{
+    font-size: 16px;
+}
+
+.subtitulo{
+    color: forestgreen;
+    font-size: 2rem;
+}
+
+.padre{
+    margin: 1rem;
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+}
+
+.hijo{
+    margin: 1rem;
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+}
+
+.inlineblock{
+    display: inline-block;
+    width: 100px;
+    color: goldenrod;
+}
+
+@media (max-with:600px)
+{
+    body{
+        background-color: black; 
+    } 
+}
